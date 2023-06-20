@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+
+.nav {
+  flex-basis: 20%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.content {
+  flex-basis: 80%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 10px;
+}
+header {
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: darkcyan;
+  color: white;
+  padding: 15px;
+  border-bottom: 5px solid black;
+}
+footer {
+  background-color: rgba(95, 158, 160, 0.836);
+  height: 50px;
+  padding: 10px;
+  margin-top: 200px;
+}
+.navs {
+  margin-top: 1px;
+}
